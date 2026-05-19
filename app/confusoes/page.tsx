@@ -1,0 +1,2 @@
+import { AppShell, ComparisonCard } from "@/components/ui";
+export default function Conf(){const l=["S3 vs EFS vs EBS","RDS vs DynamoDB","IAM Role vs Policy","NACL vs Security Group","SNS vs SQS vs EventBridge","Step Functions vs Lambda","Shield vs WAF","Organizations vs Control Tower","KMS vs Secrets Manager","NAT Gateway vs Internet Gateway","API Gateway vs Load Balancer","Bedrock vs SageMaker"];return <AppShell title="Confusões Comuns"><div className="grid gap-3">{l.map(i=><ComparisonCard key={i} title={i}/>)}</div></AppShell>}

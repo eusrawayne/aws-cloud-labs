@@ -1,0 +1,2 @@
+import { AppShell } from "@/components/ui";
+export default function Dicas(){const dicas=["Leia o cenário inteiro antes das opções","Elimine alternativas extremas","Procure palavras-chave como mais eficiente, menor custo, alta disponibilidade","Diferencie serviço gerenciado de serviço que exige administração","Use Well-Architected como referência"];return <AppShell title="Dicas de Prova"><div className="grid gap-3">{dicas.map(d=><div key={d} className="card">{d}</div>)}</div></AppShell>}
