@@ -1,0 +1,6 @@
+@import "tailwindcss";
+:root { color-scheme: dark; }
+body { @apply bg-slate-950 text-white min-h-screen; }
+.card { @apply bg-slate-900/80 border border-blue-500/30 rounded-2xl p-4 shadow-lg shadow-blue-950/40; }
+.btn-primary { @apply bg-blue-500 hover:bg-blue-400 transition text-white rounded-xl px-4 py-2 font-semibold; }
+.btn-secondary { @apply bg-slate-800 hover:bg-slate-700 transition rounded-xl px-4 py-2; }
